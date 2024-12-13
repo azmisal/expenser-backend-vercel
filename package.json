@@ -1,0 +1,29 @@
+{
+  "name": "expenser-backend-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmisal/expenser-backend-vercel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azmisal/expenser-backend-vercel/issues"
+  },
+  "homepage": "https://github.com/azmisal/expenser-backend-vercel#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.8.4",
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
+  }
+}
